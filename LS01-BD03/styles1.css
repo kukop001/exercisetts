@@ -121,14 +121,14 @@ section {
     background-color:tomato;
 }
 
-h5 {
+#category h5 {
     margin-left: 50px;
 }
 
 article {
     float: left;
     background-color: aquamarine;
-    min-height: 600px;
+    min-height: auto;
     width: 79.95%;
     text-align: center;
 }
@@ -150,6 +150,10 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+}
+
+div.gallery h5 {
+    text-align: center;
 }
 
 div.desc {
